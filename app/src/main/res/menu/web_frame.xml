@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/refresh"
+        android:title="@string/refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add_favorite"
+        android:icon="@drawable/lock_open"
+        android:title="@string/add_favorite"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_remove_favorite"
+        android:icon="@drawable/lock_closed"
+        android:title="@string/remove_favorite"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_settings_normal"
+        android:title="@string/setting"
+        app:showAsAction="always" />
+</menu>
